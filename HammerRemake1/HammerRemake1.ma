@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: HammerRemake1.ma
-//Last modified: Tue, Sep 12, 2023 09:52:51 AM
+//Last modified: Tue, Sep 12, 2023 10:00:58 AM
 //Codeset: UTF-8
 requires maya "2023";
 currentUnit -l centimeter -a degree -t film;
@@ -9,17 +9,17 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202202242215-bf3ba2e906";
 fileInfo "osv" "Linux 6.4.12-zen1-1-zen #1 ZEN SMP PREEMPT_DYNAMIC Thu, 24 Aug 2023 00:37:46 +0000 x86_64";
-fileInfo "UUID" "7F579F00-0000-3471-6500-895300000633";
+fileInfo "UUID" "7F579F00-0000-3471-6500-8B3900000634";
 createNode transform -s -n "persp";
 	rename -uid "4B15FF00-0000-50D5-64F7-8B200000023A";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 13.216083399615073 19.586346090579283 18.259636923294405 ;
-	setAttr ".r" -type "double3" -20.738352729617826 37.800000000000345 -1.0063071902501875e-15 ;
+	setAttr ".t" -type "double3" -13.861558279987305 18.321746863102739 17.432719497024074 ;
+	setAttr ".r" -type "double3" -21.338352729617924 -38.599999999999937 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "4B15FF00-0000-50D5-64F7-8B200000023B";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 18.547080837758401;
+	setAttr ".coi" 23.68191306023316;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
