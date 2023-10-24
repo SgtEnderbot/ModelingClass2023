@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: GoldfishBowlSkull.ma
-//Last modified: Wed, Oct 18, 2023 02:27:52 PM
+//Last modified: Wed, Oct 18, 2023 04:37:33 PM
 //Codeset: UTF-8
 requires maya "2023";
 currentUnit -l centimeter -a degree -t film;
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202202242215-bf3ba2e906";
 fileInfo "osv" "Linux 6.5.7-zen2-1-zen #1 ZEN SMP PREEMPT_DYNAMIC Sun, 15 Oct 2023 22:10:35 +0000 x86_64";
-fileInfo "UUID" "5839EF00-0000-3C4B-6530-3FC8000005EB";
+fileInfo "UUID" "5839EF00-0000-3C4B-6530-5E2D000005ED";
 createNode transform -n "initialShadingGrouppolySurface1";
 	rename -uid "C8CBEF00-0000-704C-652D-BE2D00000293";
 	setAttr ".t" -type "double3" -1.0923383138358873 2.0893637767210951 3.2969022703624677 ;
@@ -34608,13 +34608,13 @@ createNode mesh -n "initialShadingGrouprevolvedSurface1Shape" -p "initialShading
 createNode transform -s -n "persp";
 	rename -uid "C8CBEF00-0000-704C-652D-BE2D0000029E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 27.085571852833404 3.9637841086986807 51.818613657368033 ;
-	setAttr ".r" -type "double3" -5.138352730123902 752.59999999999332 0 ;
+	setAttr ".t" -type "double3" -12.008339902224037 11.256306700471885 92.545185288502566 ;
+	setAttr ".r" -type "double3" -5.7383527301151469 712.59999999996353 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "C8CBEF00-0000-704C-652D-BE2D0000029F";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 56.263596711988924;
+	setAttr ".coi" 91.278812764134514;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
