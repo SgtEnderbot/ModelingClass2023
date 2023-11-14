@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: TableRemake1.ma
-//Last modified: Mon, Nov 13, 2023 04:32:59 PM
+//Last modified: Mon, Nov 13, 2023 04:44:26 PM
 //Codeset: UTF-8
 requires maya "2023";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiStandardSurface"
@@ -13,12 +13,12 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202202242215-bf3ba2e906";
 fileInfo "osv" "Linux 6.5.9-zen2-1-zen #1 ZEN SMP PREEMPT_DYNAMIC Thu, 26 Oct 2023 00:51:53 +0000 x86_64";
-fileInfo "UUID" "40945F00-0000-8A98-6552-B22B00000388";
+fileInfo "UUID" "40945F00-0000-8A98-6552-B4D90000038D";
 createNode transform -s -n "persp";
 	rename -uid "9816FF00-0000-BB5B-64F9-ED98000004CE";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 6.1888495935824084 4.7678055150118155 7.7813887531250119 ;
-	setAttr ".r" -type "double3" -20.138352729607892 -321.39999999997332 1.0174252606655437e-15 ;
+	setAttr ".t" -type "double3" 9.0388383529178498 5.6906981825844323 8.2960143326887152 ;
+	setAttr ".r" -type "double3" -21.338352729607976 -312.59999999997251 0 ;
 	setAttr ".rp" -type "double3" 1.6653345369377348e-16 4.4408920985006262e-16 0 ;
 	setAttr ".rpt" -type "double3" -2.5631733318948115e-17 -6.3184587097792351e-17 -2.449632443159474e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -26,7 +26,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
 	setAttr ".fl" 34.667403509776918;
-	setAttr ".coi" 10.454661589459796;
+	setAttr ".coi" 12.955561764847619;
 	setAttr ".ow" 8.0853411471779495;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
